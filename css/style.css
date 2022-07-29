@@ -1,0 +1,22 @@
+*,::after,::before{margin: 0; box-sizing: border-box;}
+a{text-decoration: none;}
+ul{list-style: none;}
+@font-face {
+    font-family: poppins,sans-serif;
+    src: url(/fonts/Popins/Poppins-Regular.ttf);
+}
+body{font-family: poppins,sans-serif;}
+.wrap-1{background: url(/img/bg.jpg) center/cover no-repeat; height: 100vh;}
+h1{display: flex; justify-content: center; padding-top: 150px;}
+.count {display: flex; justify-content: center;  margin: 50px 0; text-align: center;}
+.time{margin: 0 30px;}
+.time h2{font-size: 60px;}
+.time small{font-size: 20px;}
+
+@media screen and (max-width:500px) {
+    h1{font-size: 20px;}
+    .time{margin: 0 20px;}
+    .time h2{font-size: 30px;}
+.time small{font-size: 18px;}
+
+}
