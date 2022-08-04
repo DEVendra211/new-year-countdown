@@ -3,10 +3,10 @@ a{text-decoration: none;}
 ul{list-style: none;}
 @font-face {
     font-family: poppins,sans-serif;
-    src: url(/fonts/Popins/Poppins-Regular.ttf);
+    src: url(../fonts/Popins/Poppins-Regular.ttf);
 }
-body{font-family: poppins,sans-serif;}
-.wrap-1{background: url(/img/bg.jpg) center/cover no-repeat; height: 100vh;}
+body{font-family: poppins,sans-serif;background: url(../bg.jpg) center/cover no-repeat; height: 100vh;}
+/* {background: url() center/cover no-repeat; height: 100vh;} */
 h1{display: flex; justify-content: center; padding-top: 150px;}
 .count {display: flex; justify-content: center;  margin: 50px 0; text-align: center;}
 .time{margin: 0 30px;}
